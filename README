@@ -18,15 +18,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-Date-Manip-5.48-X-src.tar.bz2
+  unpack perl-Date-Manip-5.50-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-Date-Manip-5.48-X.cygport all
+  cygport ./perl-Date-Manip-5.50-X.cygport all
 
 This will create:
-  /usr/src/perl-Date-Manip-5.48-X-src.tar.bz2
-  /usr/src/perl-Date-Manip-5.48-X.tar.bz2
+  /usr/src/perl-Date-Manip-5.50-X-src.tar.bz2
+  /usr/src/perl-Date-Manip-5.50-X.tar.bz2
 
 -------------------------------------------
 
@@ -35,15 +35,18 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/Date/Manip.pm
   /usr/lib/perl5/vendor_perl/5.10/Date/Manip.pod
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Date/Manip/.packlist
-  /usr/share/doc/perl-Date-Manip-5.48/HISTORY
-  /usr/share/doc/perl-Date-Manip-5.48/INSTALL
-  /usr/share/doc/perl-Date-Manip-5.48/README
-  /usr/share/doc/perl-Date-Manip-5.48/TODO
+  /usr/share/doc/perl-Date-Manip-5.50/HISTORY
+  /usr/share/doc/perl-Date-Manip-5.50/INSTALL
+  /usr/share/doc/perl-Date-Manip-5.50/README
+  /usr/share/doc/perl-Date-Manip-5.50/TODO
   /usr/share/man/man3/Date.Manip.3pm.gz
 
 ------------------
 
 Port Notes:
+
+----- version 5.50-1 -----
+Version bump.
 
 ----- version 5.48-1 -----
 Version bump, built for perl-5.10.
