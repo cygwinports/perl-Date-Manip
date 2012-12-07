@@ -1,4 +1,0 @@
-category: Perl
-requires: perl perl-YAML-Syck
-sdesc: "Perl module for manipulation of date strings"
-ldesc: "Perl module for manipulation of date strings"

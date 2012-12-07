@@ -1,0 +1,14 @@
+CPAN_AUTHOR=sbeck
+inherit perl
+
+NAME="perl-Date-Manip"
+VERSION=6.37
+RELEASE=1
+CATEGORY="Perl"
+SUMMARY="Perl module for manipulation of date strings"
+DESCRIPTION="Date::Manip is a series of modules designed to make any common
+date/time operation easy to do. Operations such as comparing two times,
+determining a data a given amount of time from another, or parsing
+international times are all easily done. It deals with time as it is used in
+the Gregorian calendar with full support for time changes due to Daylight
+Savings Time."
