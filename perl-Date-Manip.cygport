@@ -2,7 +2,7 @@ CPAN_AUTHOR=sbeck
 inherit perl
 
 NAME="perl-Date-Manip"
-VERSION=6.37
+VERSION=6.50
 RELEASE=1
 CATEGORY="Perl"
 SUMMARY="Perl module for manipulation of date strings"
@@ -12,3 +12,5 @@ determining a data a given amount of time from another, or parsing
 international times are all easily done. It deals with time as it is used in
 the Gregorian calendar with full support for time changes due to Daylight
 Savings Time."
+
+ARCH=noarch
